@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+
+# Environment Variables
+.env
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# Data files
+data/
+
+# Logs
+*.log
+
+# Pytest cache
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+TODO.md
+CONCEPTS.md
