@@ -1,0 +1,7 @@
+DATE,Amount,Category,Comments
+2024-01-01,100,Groceries,Good
+2024-01-05,abc,Utilities,Bill paid
+2024-01-07,75.50,Transport,
+2024-01-10,NaN,Groceries,Discount used
+2024-01-12,50,abc,Check later
+2024-01-15,-200,Refund,Negative amount
