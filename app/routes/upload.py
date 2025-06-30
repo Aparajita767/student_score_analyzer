@@ -10,6 +10,9 @@ logger = logging.getLogger(__name__)
 ALLOWED_EXTENSIONS = ['.csv']
 
 def is_allowed_file(filename):
+    '''
+    Check if filename has valid extension
+    '''
     filename = filename.strip() #strip before splitext as whitespace after . is  not stripped afterwards
     ext = os.path.splitext(filename)[1].lower() #splitext returns (root, ext) choose only ext
     return ext in ALLOWED_EXTENSIONS
