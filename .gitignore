@@ -1,8 +1,13 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+
+temp.csv
+
+# Other ignores you already have
+
 
 # Virtual Environment
 venv/
@@ -29,3 +34,4 @@ Thumbs.db
 
 TODO.md
 CONCEPTS.md
+tests/test_data/student_score.csv
